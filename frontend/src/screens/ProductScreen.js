@@ -33,7 +33,6 @@ function ProductScreen() {
   const { slug } = params;
 
   const [{ loading, error, product }, dispatch] = useReducer(reducer, {
-    product: [],
     loading: true,
     error: '',
   });
